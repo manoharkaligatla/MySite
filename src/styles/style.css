@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Livvic:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Tangerine:700&display=swap');
+
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Livvic', sans-serif;
+}
+
+.yellow {
+    color: #c9b771;
+}
+
+.violet {
+    color: #52698c;
+}
+
+.dark {
+    color: #10112c;
+}
+
+.blue {
+    color: #2fcce4;
+}
