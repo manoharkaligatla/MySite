@@ -49,7 +49,7 @@ class Site extends React.Component {
 
 
                 <Navbar color="light" light expand="md">
-                    <NavbarBrand href="/">Manohar</NavbarBrand>
+                    <NavbarBrand href="/">MK</NavbarBrand>
                     <NavbarToggler onClick={this.toggle} />
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="ml-auto" navbar>
