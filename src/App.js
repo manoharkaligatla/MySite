@@ -1,26 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Route, Switch, BrowserRouter as Router } from 'react-router-dom';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={'images/pandu.jpg'} className="Ap-logo" alt="logo" />
-        <p>
-         Manohar Kaligatla
-        </p>
-        <a
-          className="App-link"
-          href="images/pandu.jpg"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn Reacjhgjght
-        </a>
-      </header>
-    </div>
-  );
+import WelcomePage from './welcomeComponent';
+import HomeComponent from './homeComponent';
+
+import './styles/backdrop.css';
+
+class App extends React.Component {
+    
+
+    render(){
+      return(
+        <Router>
+        <div>
+          <Route path="/" exact component={WelcomePage}/>
+          <Route path="/welcome" exact component={WelcomePage}/>
+          <Route path="/home" component={HomeComponent}/>
+          
+        </div>
+        </Router>
+      )
+    }
 }
-
 export default App;

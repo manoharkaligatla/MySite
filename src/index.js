@@ -4,8 +4,9 @@ import ReactDOM from 'react-dom';
 import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import './styles/font-awesome.min.css';
 import './styles/style.css';
-import Site from './site';
+// import WelcomePage from './welcomepage';
+import App from './App';
 
 
-ReactDOM.render(<Site />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
 
