@@ -1,0 +1,15 @@
+.topNavbar{
+    background: #10112c !important;
+    
+}
+.navbar-nav li a, .navbar-brand{
+    color: #ddd !important;
+    outline: none;
+}
+.inactive {
+    color: #fff;
+    text-decoration: none;
+}
+.active{
+    color: yellow !important;
+}
